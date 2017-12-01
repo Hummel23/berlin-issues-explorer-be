@@ -21,8 +21,9 @@ Icon
 
 ### Gradle ###
 # Exclude Folder List #
-.gradle/
 build/
+gradlew
+gradlew.bat
 
 
 ### Eclipse ###
@@ -49,4 +50,8 @@ local.properties
 *.iml
 *.ipr
 *.iws
-.idea/
+Würde gradle/ löschen
+Würde gradlew löschen
+Würde gradlew.bat löschen
+Würde out/ löschen
+/gradle/wrapper/gradle-wrapper.properties
