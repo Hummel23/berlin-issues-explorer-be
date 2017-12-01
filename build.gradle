@@ -6,6 +6,10 @@ buildscript {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.7.RELEASE")
     }
 }
+plugins {
+    id 'io.franzbecker.gradle-lombok' version '1.11'
+    id 'java'
+}
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
@@ -37,3 +41,5 @@ dependencies {
     testCompile("junit:junit")
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
+
+
